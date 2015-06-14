@@ -14,6 +14,11 @@
 #
 # Author: Philipp Fehre Github: @sideshowcoder Twitter: @ischi
 
+
+require 'rubygems'
+require 'sass'
+require 'stasis'
+
 require 'tmpdir'
 
 desc 'Setup the repository for Github user or organization page run this in an empty folder'
@@ -90,8 +95,8 @@ end
 
 desc 'Compile'
 task :compile do
-  `bundle exec sass assets\/sass\/main.scss assets\/css\/main.css`
-  #{}`sass assets\/sass\/main.scss assets\/css\/main.css`
+  #`bundle exec sass assets\/sass\/main.scss assets\/css\/main.css`
+  `sass assets\/sass\/main.scss assets\/css\/main.css`
 end
 
 desc 'Add/Commit/Push'
@@ -108,8 +113,8 @@ end
 desc 'Start development'
 task :development do
   puts 'Starting stasis watcher and server, visit http://localhost:3000 to view'
-  pid = fork { exec 'bundle exec stasis -d 3000' }
-  #pid = fork { exec 'stasis -d 3000' }
+  #pid = fork { exec 'bundle exec stasis -d 3000' }
+  pid = fork { exec 'stasis -d 3000' }
   begin
     Process.wait pid
   rescue Object
@@ -132,7 +137,8 @@ end
 
 # generate the public files to serve
 def generate
-  `bundle exec stasis`
+  #`bundle exec stasis`
+  Stasis.new('./').render
 end
 
 # Load embedded templates from the file

@@ -7,17 +7,14 @@
 		mkdir bofakya-org.github.com 
 		cd bofakya-org.github.com
 
-2. Download the Rakefile and run it
+2. Set up Stasis project for GitHub Pages in local directory 
 
 		curl https://raw.github.com/sideshowcoder/github-stasis/master/Rakefile > Rakefile 
-
-	(Rakefile from @sideshowcoder modified)
-
 		rake setup_repository_for_github_user_page
 
-	Create a repostitory for your user or organization page on github
+3. Create a new repostitory on github
 
-3. Set the origin and push
+4. Update repository
 
 		git remote add origin https://github.com/bofakya-org/bofakya-org.github.io.git
 		git push -u --all origin

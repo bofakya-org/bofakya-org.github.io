@@ -25,4 +25,5 @@ DEPENDENCIES
   nokogiri
   redcarpet
   sass
+  slop
   stasis

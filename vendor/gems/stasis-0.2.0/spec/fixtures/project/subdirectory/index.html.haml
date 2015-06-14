@@ -1,0 +1,14 @@
+@before_index_literal
+= @before_index_literal
+@before_index_regexp
+= @before_index_regexp
+@before_all
+= @before_all
+@fail
+= !@fail.nil?
+helpers
+= helper
+render from root
+= render '/_partial.html.haml'
+render from subdirectory
+= render '_partial.html.haml'

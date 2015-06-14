@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
+gem 'stasis'
 gem 'sass'
-gem 'rb-fsevent'
 gem 'redcarpet'

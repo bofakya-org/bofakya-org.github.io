@@ -167,6 +167,7 @@ __END__
 
 @@ gemfile
 source "https://rubygems.org"
+gem "sass"
 
 @@ controller
 # ignore everything needed to build

@@ -2,31 +2,28 @@
 
 ## Intial Setup of Repository
 
-##### Step 1
-Create a new folder where your page is gonna live
+1. Create a new folder where your page is gonna live
 
-	mkdir bofakya-org.github.com 
-	cd bofakya-org.github.com
+		mkdir bofakya-org.github.com 
+		cd bofakya-org.github.com
 
-##### Step 2
-Download the Rakefile and run it
+2. Download the Rakefile and run it
 
-	curl https://raw.github.com/sideshowcoder/github-stasis/master/Rakefile > Rakefile 
+		curl https://raw.github.com/sideshowcoder/github-stasis/master/Rakefile > Rakefile 
 
-(Rakefile from @sideshowcoder modified)
+	(Rakefile from @sideshowcoder modified)
 
-	rake setup_repository_for_github_user_page
+		rake setup_repository_for_github_user_page
 
 Create a repostitory for your user or organization page on github
 
-##### Step 3
-Set the origin and push
+3. Set the origin and push
 
-	git remote add origin https://github.com/bofakya-org/bofakya-org.github.io.git
-	git push -u --all origin
+		git remote add origin https://github.com/bofakya-org/bofakya-org.github.io.git
+		git push -u --all origin
 
-or
+	or
 
-	git remote add origin https://github.com/bofakya-org/bofakya-org.github.io.git
-	git push -u origin source
-	git push -u origin master
+		git remote add origin https://github.com/bofakya-org/bofakya-org.github.io.git
+		git push -u origin source
+		git push -u origin master

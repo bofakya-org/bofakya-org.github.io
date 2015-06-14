@@ -1,4 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
+
+gem 'rake'
 
 gem 'stasis'
 # gem 'directory_watcher', '1.4.1'
@@ -18,7 +20,6 @@ gem 'albino'
 gem 'coffee-script'
 gem 'haml'
 gem 'nokogiri'
-gem 'rake'
 gem 'rocco'
 gem 'rspec'
 gem 'pygments.rb'

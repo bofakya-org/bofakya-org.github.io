@@ -65,3 +65,6 @@ DEPENDENCIES
   slop
   stasis
   tilt
+
+BUNDLED WITH
+   1.10.3

@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   s.description = "A simple DSL for gathering options and parsing the command line"
   s.email = "lee@jarvis.co"
   s.homepage = "http://github.com/injekt/slop"
-  s.rubygems_version = "2.2.2"
+  s.rubygems_version = "2.4.8"
   s.summary = "Option gathering made easy"
 
-  s.installed_by_version = "2.2.2" if s.respond_to? :installed_by_version
+  s.installed_by_version = "2.4.8" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 3

@@ -91,6 +91,7 @@ end
 desc 'Compile'
 task :compile do
   `bundle exec sass assets\/sass\/main.scss assets\/css\/main.css`
+  #{}`sass assets\/sass\/main.scss assets\/css\/main.css`
 end
 
 desc 'Add/Commit/Push'
@@ -108,6 +109,7 @@ desc 'Start development'
 task :development do
   puts 'Starting stasis watcher and server, visit http://localhost:3000 to view'
   pid = fork { exec 'bundle exec stasis -d 3000' }
+  #pid = fork { exec 'stasis -d 3000' }
   begin
     Process.wait pid
   rescue Object

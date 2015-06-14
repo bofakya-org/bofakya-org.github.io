@@ -1,4 +1,4 @@
-/Users/orm/.rbenv/versions/2.1.3/bin/ruby extconf.rb 
+/Users/orm/.rbenv/versions/2.1.3/bin/ruby -r ./siteconf20150614-59879-3difc9.rb extconf.rb
 creating Makefile
 
 make "DESTDIR=" clean
@@ -31,5 +31,5 @@ compiling stack.c
 linking shared-object redcarpet.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20150613-27859-25s7wi
+/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20150614-59879-1vpo8n1
 installing default redcarpet libraries

@@ -7,6 +7,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
+    diff-lcs (1.2.5)
     directory_watcher (1.4.1)
     execjs (2.5.2)
     haml (4.0.6)
@@ -21,7 +22,19 @@ GEM
     rocco (0.8.2)
       mustache
       redcarpet
-    rspec (1.3.2)
+    rspec (3.3.0)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+    rspec-core (3.3.0)
+      rspec-support (~> 3.3.0)
+    rspec-expectations (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-mocks (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-support (3.3.0)
     sass (3.4.14)
     slop (3.3.2)
     stasis (0.2.0)
@@ -36,14 +49,14 @@ PLATFORMS
 DEPENDENCIES
   albino
   coffee-script
-  directory_watcher (= 1.4.1)
+  directory_watcher
   haml
   nokogiri
   rake
   redcarpet
   rocco
-  rspec (~> 1.0)
+  rspec
   sass
-  slop (= 3.3.2)
+  slop
   stasis
-  tilt (= 1.3.3)
+  tilt

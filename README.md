@@ -1,16 +1,30 @@
-Repository setup locally now create a repository named USERNAME.github.com
-and point the origin it's way.
+# BoFA (A Breath of Fresh Air) Website
 
-The rest of the Rakefile assumes a stasis default setup to be used so
+## Initial setup of repository
 
-    rake development
-runs a local development server on port 3000, watching the current dir
+### Create a new folder where your page is gonna live
 
-    rake generate
-generates the current page inside public
+$ mkdir bofakya-org.github.com 
 
-    rake publish
-publishes whatever is currently generated to the master branch ready to push
+$ cd bofakya-org.github.com
 
-Have a great day!
-@sideshowcoder <Twitter @ischi>
+### Download the Rakefile and run it
+
+$ curl https://raw.github.com/sideshowcoder/github-stasis/master/Rakefile > Rakefile 
+
+(Rakefile from @sideshowcoder <Twitter @ischi>)
+
+$ rake setup_repository_for_github_user_page
+
+Create a repostitory for your user or organization page on github
+
+### Set the origin and push
+
+$ git remote add origin https://github.com/bofakya-org/bofakya-org.github.io.git
+
+$ git push -u --all origin
+
+or
+
+$ git push -u origin source
+$ git push -u origin master

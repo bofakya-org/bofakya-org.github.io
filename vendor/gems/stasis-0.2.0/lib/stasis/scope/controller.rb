@@ -27,6 +27,7 @@ class Stasis
       Dir.chdir(File.dirname(path))
       
       # Evaluate `controller.rb`.
+      puts path
       instance_eval(File.read(path), path)
 
       # Unset temporary path variables.

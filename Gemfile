@@ -21,6 +21,7 @@ gem 'nokogiri'
 gem 'rake'
 gem 'rocco'
 gem 'rspec'
+gem 'pygments.rb'
 
 gem 'sass'
 gem 'redcarpet'

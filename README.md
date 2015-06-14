@@ -15,7 +15,7 @@
 
 		rake setup_repository_for_github_user_page
 
-Create a repostitory for your user or organization page on github
+	Create a repostitory for your user or organization page on github
 
 3. Set the origin and push
 

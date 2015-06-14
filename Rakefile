@@ -107,7 +107,7 @@ end
 desc 'Start development'
 task :development do
   puts 'Starting stasis watcher and server, visit http://localhost:3000 to view'
-  pid = fork { exec 'stasis -d 3000' }
+  pid = fork { exec 'bundle exec stasis -d 3000' }
   begin
     Process.wait pid
   rescue Object
@@ -130,7 +130,7 @@ end
 
 # generate the public files to serve
 def generate
-  `stasis`
+  `bundle exec stasis`
 end
 
 # Load embedded templates from the file

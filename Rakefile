@@ -77,12 +77,6 @@ task :live do
   `git stash pop`
 end
 
-
-desc 'Compile'
-task :compile do
-  `sass assets\/sass\/main.scss assets\/css\/main.css`
-end
-
 desc 'Compile, Add/Commit/Push and Publish/Live'
 task :update do
   Rake::Task[:compile].invoke
@@ -92,6 +86,11 @@ task :update do
   puts <<-INFO
 Update complete!
   INFO
+end
+
+desc 'Compile'
+task :compile do
+  `sass assets\/sass\/main.scss assets\/css\/main.css`
 end
 
 desc 'Add/Commit/Push'

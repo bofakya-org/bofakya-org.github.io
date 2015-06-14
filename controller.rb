@@ -1,3 +1,6 @@
+# Set default layout
+layout 'layout.html.erb'
+
 # Ignore everything needed to build
 ignore 'Gemfile.lock'
 ignore 'Gemfile'
@@ -14,5 +17,3 @@ ignore 'LICENSE.txt'
 
 ignore 'README.txt'
 
-# Set default layout
-layout 'layout.html.haml'

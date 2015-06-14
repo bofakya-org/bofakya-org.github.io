@@ -90,7 +90,7 @@ end
 
 desc 'Compile'
 task :compile do
-  `sass assets\/sass\/main.scss assets\/css\/main.css`
+  `bundle exec sass assets\/sass\/main.scss assets\/css\/main.css`
 end
 
 desc 'Add/Commit/Push'

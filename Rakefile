@@ -83,17 +83,25 @@ task :compile do
   `sass assets\/sass\/main.scss assets\/css\/main.css`
 end
 
-desc 'Add/Commit/Push'
+desc 'Compile, Add/Commit/Push and Publish/Live'
 task :update do
   Rake::Task[:compile].invoke
-  'git status'
-  `git add --all`
-  `git commit -m 'Update content.'`
-  `git push`
+  Rake::Task[:checkin].invoke
   Rake::Task[:publish].invoke
   Rake::Task[:live].invoke
   puts <<-INFO
 Update complete!
+  INFO
+end
+
+desc 'Add/Commit/Push'
+task :checkin do
+  'git status'
+  `git add --all`
+  `git commit -m 'Update content.'`
+  `git push`
+  puts <<-INFO
+Check-in complete!
   INFO
 end
 

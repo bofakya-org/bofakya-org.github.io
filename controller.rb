@@ -13,3 +13,6 @@ ignore 'README (Verti).txt'
 ignore 'LICENSE.txt'
 
 ignore 'README.txt'
+
+# Set default layout
+layout 'layout.html.haml'

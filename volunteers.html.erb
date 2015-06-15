@@ -24,11 +24,11 @@
 							<section class="widget thumbnails">
 								<h2>Our Team</h2>
 								<div class="grid">
-									<% volunteers = CSV.read("./data/volunteers.csv", {:col_sep => "#"}) %>
+									<% volunteers = CSV.read("./data/volunteers.csv") %>
 									<% volunteers.each do |volunteer| %>
-										<% last_name = "#{volunteer[0]}" %> 
-										<% first_name = "#{volunteer[1]}" %> 
-										<% biography = "#{volunteer[2]}" %> 
+										<% last_name = volunteer[0] %> 
+										<% first_name = volunteer[1] %> 
+										<% biography = volunteer[2] %> 
 										<% image_file = "#{last_name}-#{first_name}.png" %> 
 
 										<div class="row 50%">

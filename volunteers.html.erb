@@ -26,14 +26,18 @@
 								<div class="grid">
 									<% volunteers = CSV.read("./data/volunteers.csv", {:col_sep => "#"}) %>
 									<% volunteers.each do |volunteer| %>
+										<% last_name = "#{volunteer[0]}" %> 
+										<% first_name = "#{volunteer[1]}" %> 
+										<% biography = "#{volunteer[2]}" %> 
+										<% image_file = "#{last_name}-#{first_name}.png" %> 
 
 										<div class="row 50%">
 											<div class="3u">
-												<a href="#" class="image fit"><img src="xxx.png" alt="" /></a>
+												<a href="#" class="image fit"><img src="<%= image_file %>" alt="" /></a>
 											</div>
 											<div class="9u" style="line-height: 125%;">
-												<h3><%= "#{volunteer[1]} #{volunteer[0]}" %></h3>
-												<p><%= "#{volunteer[2]}" %></p>
+												<h3><%= "#{first_name} #{last_name}" %></h3>
+												<p><%= "biography" %></p>
 											</div>
 										</div>
 

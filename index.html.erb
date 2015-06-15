@@ -8,9 +8,9 @@
         		<img src="images/bofa-logo.png" alt="" style="border: 5px solid #ff4486;" /></a>
         	</div>
         </div>
-        <div class="10u 12u(medium)">
+        <div class="10u 12u(medium)" style="font-size: 66%;">
           <h2>A Breath of Fresh Air</h2>
-          <p style="font-size: 66%;">Serving Louisville, Kentucky and Southern Indiana to improve air quality, lung health, and prevent lung disease by supporting the American Lung Association and clean air initiatives.</p>
+          <p>Serving Louisville, Kentucky and Southern Indiana to improve air quality, lung health, and prevent lung disease by supporting the American Lung Association and clean air initiatives.</p>
           <p><a href="about-bofa.html">About BoFA</a></p>
         </div>
       </div>
@@ -49,10 +49,17 @@
 								<div class="grid">
 									<div class="row 50%">
 
-										<% partners = ["american-lung-association", "botanica", "cellar-door-choclates", "center-for-interfaith-relations", "institute-for-healthy-air-water-and-soil", "league-of-mascots-louisville"] %>		
+										<% partners = [ \
+												["american-lung-association", "http://www.lung.org/associations/states/kentucky/index.html"], \
+												["botanica", "http://waterfrontgardens.org/"], \
+												["cellar-door-choclates", "http://www.instituteforhealthyairwaterandsoil.org/"], \
+												["center-for-interfaith-relations", "http://www.centerforinterfaithrelations.org/"], \
+												["institute-for-healthy-air-water-and-soil", "http://www.instituteforhealthyairwaterandsoil.org/"], \
+												["league-of-mascots-louisville", "http://www.instituteforhealthyairwaterandsoil.org/"] \
+												] %>		
 										<% partners.each do |partner| %>
-											<div class="2u"><a href="#" class="image fit">
-												<img src="images/partners/<%= partner %>.png" alt="" style="border: 2px solid #708090;" /></a>
+											<div class="2u"><a href="<%= partner[1] %>" class="image fit">
+												<img src="images/partners/<%= partner[0] %>.png" alt="" style="border: 2px solid #708090;" /></a>
 											</div>
 										<% end %>
 

@@ -24,37 +24,20 @@
 							<section class="widget thumbnails">
 								<h2>Our Team</h2>
 								<div class="grid">
-									<div class="row 50%">
-										<div class="3u">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<% volunteers = CSV.read("./data/volunteers.csv", {:col_sep => "#"}) %>
+									<% volunteers.each do |volunteer| %>
+
+										<div class="row 50%">
+											<div class="3u">
+												<a href="#" class="image fit"><img src="xxx.png" alt="" /></a>
+											</div>
+											<div class="9u">
+												<h3><%= "#{volunteer[1]} #{volunteer[0]}" %></h3>
+												<p><%= "#{volunteer[2]}" %></p>
+											</div>
 										</div>
-										<div class="9u">
-											<h3>Joe Blow</h3>
-											<p>This annual soiree is the result of a few of our charter members brainstorming an event that would be “creative, exciting and unusual” while raising money for a worthy charity.</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="3u">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										</div>
-										<div class="9u">
-											<h3>Joe Blow</h3>
-											<p>This annual soiree is the result of a few of our charter members brainstorming an event that would be “creative, exciting and unusual” while raising money for a worthy charity.</p>
-										</div>
-									</div>
-									<div class="row 50%">
-										<div class="3u">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										</div>
-										<div class="9u">
-											<h3>Joe Blow</h3>
-											<p>This annual soiree is the result of a few of our charter members brainstorming an event that would be “creative, exciting and unusual” while raising money for a worthy charity.</p>
-										</div>
-									</div>
-								</div>
-								<br/>
-								</div>
-								<br/>
+
+									<% end %>
 								</div>
 								<br/>
 								<a href="index.html" class="button icon fa-home">Home</a>

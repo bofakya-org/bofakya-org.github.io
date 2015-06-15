@@ -1,3 +1,5 @@
+require 'csv'
+
 # Set default layout
 layout 'layout.html.erb'
 

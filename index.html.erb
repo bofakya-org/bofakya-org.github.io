@@ -48,24 +48,14 @@
 								<h2>Our Clean Air and Healthy Lung Partners</h2>
 								<div class="grid">
 									<div class="row 50%">
-										<div class="2u"><a href="#" class="image fit">
-											<img src="images/partners/american-lung-association.png" alt="" style="border: 3px solid #708090;" /></a>
-										</div>
-										<div class="2u"><a href="#" class="image fit">
-											<img src="images/partners/botanica.png" alt="" style="border: 3px solid #708090;" /></a>
-										</div>
-										<div class="2u"><a href="#" class="image fit">
-											<img src="images/partners/cellar-door-choclates.png" alt="" style="border: 3px solid #708090;" /></a>
-										</div>
-										<div class="2u"><a href="#" class="image fit">
-											<img src="images/partners/center-for-interfaith-relations.png" alt="" style="border: 3px solid #708090;" /></a>
-										</div>
-										<div class="2u"><a href="#" class="image fit">
-											<img src="images/partners/institute-for-healthy-air-water-and-soil.png" alt="" style="border: 3px solid #708090;" /></a>
-										</div>
-										<div class="2u"><a href="#" class="image fit">
-											<img src="images/partners/league-of-mascots-louisville.png" alt="" style="border: 3px solid #708090;" /></a>
-										</div>
+
+										<% partners = ["american-lung-association.png", "botanica.png", "cellar-door-choclates", "center-for-interfaith-relations", "institute-for-healthy-air-water-and-soil", "league-of-mascots-louisville"] %>		
+										<% partners.each do |partners| %>
+											<div class="2u"><a href="#" class="image fit">
+												<img src="images/partners/<%= partner %>.png" alt="" style="border: 3px solid #708090;" /></a>
+											</div>
+										<% end %>
+
 									</div>
 								</div>
 							</section>

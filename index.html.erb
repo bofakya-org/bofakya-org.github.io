@@ -36,45 +36,43 @@
   </div>
 
 <!-- Main -->
-	<div id="main-wrapper">
+	<div id="features-wrapper">
 
 		<div class="container">
 			<div class="row 200%">
 				<div class="12u 12u(medium)">
 
 					<!-- Sidebar -->
-						<div id="sidebar">
-							<section class="widget thumbnails box">
-								<h2>Our Clean Air and Healthy Lung Partners</h2>
-								<div class="grid">
-									<div class="row 50%">
+						<section class="widget thumbnails box">
+							<h2>Our Clean Air and Healthy Lung Partners</h2>
+							<div class="grid">
+								<div class="row 50%">
 
-										<% partners = [ \
-												["american-lung-association", \
-													"http://www.lung.org/associations/states/kentucky/index.html"], \
-												["botanica", \
-													"http://waterfrontgardens.org/"], \
-												["cellar-door-choclates", \
-													"http://www.instituteforhealthyairwaterandsoil.org/"], \
-												["center-for-interfaith-relations", \
-													"http://www.centerforinterfaithrelations.org/"], \
-												["institute-for-healthy-air-water-and-soil", \
-													"http://www.instituteforhealthyairwaterandsoil.org/"], \
-												["league-of-mascots-louisville", \
-													"http://www.instituteforhealthyairwaterandsoil.org/"] \
-												] %>		
-										<% partners.each do |partner| %>
+									<% partners = [ \
+											["american-lung-association", \
+												"http://www.lung.org/associations/states/kentucky/index.html"], \
+											["botanica", \
+												"http://waterfrontgardens.org/"], \
+											["cellar-door-choclates", \
+												"http://www.instituteforhealthyairwaterandsoil.org/"], \
+											["center-for-interfaith-relations", \
+												"http://www.centerforinterfaithrelations.org/"], \
+											["institute-for-healthy-air-water-and-soil", \
+												"http://www.instituteforhealthyairwaterandsoil.org/"], \
+											["league-of-mascots-louisville", \
+												"http://www.instituteforhealthyairwaterandsoil.org/"] \
+											] %>		
+									<% partners.each do |partner| %>
 
-											<div class="2u"><a href="<%= partner[1] %>" class="image fit">
-												<img src="images/partners/<%= partner[0] %>.png" alt="" style="border: 1px solid #708090;" /></a>
-											</div>
+										<div class="2u"><a href="<%= partner[1] %>" class="image fit">
+											<img src="images/partners/<%= partner[0] %>.png" alt="" style="border: 1px solid #708090;" /></a>
+										</div>
 
-										<% end %>
+									<% end %>
 
-									</div>
 								</div>
-							</section>
-						</div>
+							</div>
+						</section>
 
 				</div>
 			</div>

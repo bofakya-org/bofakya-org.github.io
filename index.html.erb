@@ -100,104 +100,38 @@
 	<div id="features-wrapper">
 		<div class="container">
 
-			<div class="row">
-				<div class="4u 12u(medium)">
-					<!-- Box -->
-            <section class="box feature">
-              <div class="inner">
-                <header>
-									<h2>Platinum Sponsors</h2>
-								</header>
-								<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-							</div>
-            </section>
-				</div>
+			<% ["Platinum","Gold","Silver", "Media", "Table", "Supporting"].each do |sponsor_type| %>
+				<div class="row 200%">
+					<div class="12u 12u(medium)">
+						<!-- Box -->
+							<section class="box feature">
+								<div class="inner">
 
-				<div class="8u 12u(medium)">
-					<!-- Box -->
-						<section class="box feature">
-							<div class="inner">
-								<header>
-									<h2>Gold Sponsors</h2>
-								</header>
-								<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-							</div>
-						</section>
-				</div>
-			</div>
+									<section class="widget thumbnails">
+									<h3><%= sponsor_type %> Sponsors</h3>
+										<div class="grid">
+											<div class="row 50%">
 
-			<div class="row">
-				<div class="12u 12u(medium)">
-					<!-- Box -->
-						<section class="box feature">
-							<div class="inner">
-								<header>
-									<h2>Silver Sponsors</h2>
-								</header>
-								<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-							</div>
-						</section>
-				</div>
-			</div>
+												<% sponsors = CSV.read("./data/sponsors-<%= sponsor_type.downcase %>.csv") %>
+												<% sponsors.each do |sponsor| %>
+													<% image_file = "#{sponsor[0].downcase}.png" %> 
+													<% link = sponsor[1] %> 
 
-			<div class="row">
-				<div class="12u 12u(medium)">
-					<!-- Box -->
-						<section class="box feature">
-							<div class="inner">
-								<header>
-									<h2>Media Sponsors</h2>
-								</header>
-								<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-							</div>
-						</section>
-				</div>
-			</div>
+													<div class="2u"><a href="#" class="image fit">
+														<img src="images/sponsors-%= sponsor_type.downcase %>/<%= image_file %>" alt="" /></a>
+													</div>
 
-			<div class="row">
-				<div class="12u 12u(medium)">
-					<!-- Box -->
-						<section class="box feature">
-							<div class="inner">
-								<header>
-									<h2>Table Sponsors</h2>
-								</header>
-								<p>Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus. Praesent sed semper amet bibendum tristique fringilla.</p>
-							</div>
-						</section>
-				</div>
-			</div>
+												<% end %>
 
-			<div class="row 200%">
-				<div class="12u 12u(medium)">
-					<!-- Box -->
-						<section class="box feature">
-							<div class="inner">
-
-								<section class="widget thumbnails">
-									<h3>Supporting Sponsors</h3>
-									<div class="grid">
-										<div class="row 50%">
-											<div class="2u"><a href="#" class="image fit">
-												<img src="images/partners/pic04.jpg" alt="" /></a>
-											</div>
-											<div class="2u"><a href="#" class="image fit">
-												<img src="images/partners/pic05.jpg" alt="" /></a>
-											</div>
-											<div class="2u"><a href="#" class="image fit">
-												<img src="images/partners/pic06.jpg" alt="" /></a>
-											</div>
-											<div class="2u"><a href="#" class="image fit">
-												<img src="images/partners/pic07.jpg" alt="" /></a>
 											</div>
 										</div>
-									</div>
-								</section>
+									</section>
 
-							</div>
-						</section>
+								</div>
+							</section>
+					</div>
 				</div>
-			</div>
+			<% end %>
 
 		</div>
 

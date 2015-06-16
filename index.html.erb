@@ -112,9 +112,9 @@
 										<div class="grid">
 											<div class="row 50%">
 
-												<% sponsors = CSV.read("./data/sponsors-<%= sponsor_type.downcase %>.csv") %>
+												<% sponsors = CSV.read("./data/sponsors-#{sponsor_type.downcase}.csv") %>
 												<% sponsors.each do |sponsor| %>
-													<% image_file = "#{<%= sponsor[0]=>.downcase %>}.png" %> 
+													<% image_file = "#{sponsor[0].downcase}.png" %> 
 													<% link = sponsor[1] %> 
 
 													<div class="2u"><a href="#" class="image fit">

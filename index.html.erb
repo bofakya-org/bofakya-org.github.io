@@ -53,40 +53,38 @@
 
 <!-- Main -->
 	<div id="features-wrapper">
-
-		<div class="container box">
+		<div class="container">
 			<div class="row 175%">
 				<div class="12u 12u(medium)">
 
-					<!-- Sidebar -->
-						<section class="widget thumbnails box">
-							<h2>Our Clean Air and Healthy Lung Partners</h2>
-							<div class="grid">
-								<div class="row 50%">
+					<section class="widget thumbnails box">
+						<h2>Our Clean Air and Healthy Lung Partners</h2>
+						<div class="grid">
+							<div class="row 50%">
 
-									<% partners = [ \
-											["american-lung-association", \
-												"http://www.lung.org/associations/states/kentucky/index.html"], \
-											["botanica", \
-												"http://waterfrontgardens.org/"], \
-											["cellar-door-choclates", \
-												"http://www.instituteforhealthyairwaterandsoil.org/"], \
-											["center-for-interfaith-relations", \
-												"http://www.centerforinterfaithrelations.org/"], \
-											["institute-for-healthy-air-water-and-soil", \
-												"http://www.instituteforhealthyairwaterandsoil.org/"], \
-											["league-of-mascots-louisville", \
-												"http://www.instituteforhealthyairwaterandsoil.org/"] \
-											] %>		
-									<% partners.each do |partner| %>
-										<div class="2u"><a href="<%= partner[1] %>" class="image fit">
-											<img src="images/partners/<%= partner[0] %>.png" alt="" style="border: 1px solid #708090;" /></a>
-										</div>
-									<% end %>
+								<% partners = [ \
+										["american-lung-association", \
+											"http://www.lung.org/associations/states/kentucky/index.html"], \
+										["botanica", \
+											"http://waterfrontgardens.org/"], \
+										["cellar-door-choclates", \
+											"http://www.instituteforhealthyairwaterandsoil.org/"], \
+										["center-for-interfaith-relations", \
+											"http://www.centerforinterfaithrelations.org/"], \
+										["institute-for-healthy-air-water-and-soil", \
+											"http://www.instituteforhealthyairwaterandsoil.org/"], \
+										["league-of-mascots-louisville", \
+											"http://www.instituteforhealthyairwaterandsoil.org/"] \
+										] %>		
+								<% partners.each do |partner| %>
+									<div class="2u"><a href="<%= partner[1] %>" class="image fit">
+										<img src="images/partners/<%= partner[0] %>.png" alt="" style="border: 1px solid #708090;" /></a>
+									</div>
+								<% end %>
 
-								</div>
 							</div>
-						</section>
+						</div>
+					</section>
 
 				</div>
 			</div>
@@ -94,37 +92,37 @@
 	</div>
 
 <!-- Features -->
-		<div id="features-wrapper">
-	<% ["Platinum", "Gold", "Silver", "Media", "Table", "Supporting"].each do |sponsor_type| %>
-				<div class="container">
-						<div class="row 175%">
-							<div class="12u 12u(medium)">
-								<!-- Box -->
-									<section class="widget thumbnails box">
+	<div id="features-wrapper">
+		<% ["Platinum", "Gold", "Silver", "Media", "Table", "Supporting"].each do |sponsor_type| %>
+			<div class="container">
+				<div class="row 175%">
+					<div class="12u 12u(medium)">
 
-										<h2><%= sponsor_type %> Sponsors</h2>
-										<div class="grid">
-											<div class="row 50%">
+						<section class="widget thumbnails box">
+							<h2><%= sponsor_type %> Sponsors</h2>
+							<div class="grid">
+								<div class="row 50%">
 
-												<% sponsors = CSV.read("./data/sponsors-#{sponsor_type.downcase}.csv") %>
-												<% sponsors.each do |sponsor| %>
-													<% image_file = "#{sponsor[0].downcase}.png" %> 
-													<% link = sponsor[1] %> 
+									<% sponsors = CSV.read("./data/sponsors-#{sponsor_type.downcase}.csv") %>
+									<% sponsors.each do |sponsor| %>
+										<% image_file = "#{sponsor[0].downcase}.png" %> 
+										<% link = sponsor[1] %> 
 
-													<div class="2u">
-														<a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
-													</div>
-
-												<% end %>
-
-											</div>
+										<div class="2u">
+											<a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
 										</div>
 
-									</section>
+									<% end %>
+
+								</div>
 							</div>
+						</section>
+
+					</div>
 				</div>
-		</div>
-	<% end %>
+			</div>
+		<% end %>
+	</div>
 
 <!-- Main -->
 	<div id="main-wrapper">

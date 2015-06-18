@@ -63,25 +63,15 @@
 						<div class="grid">
 							<div class="row 50%">
 
-								<% partners = [ \
-										["american-lung-association", \
-											"http://www.lung.org/associations/states/kentucky/index.html"], \
-										["botanica", \
-											"http://waterfrontgardens.org/"], \
-										["cellar-door-choclates", \
-											"http://www.instituteforhealthyairwaterandsoil.org/"], \
-										["center-for-interfaith-relations", \
-											"http://www.centerforinterfaithrelations.org/"], \
-										["institute-for-healthy-air-water-and-soil", \
-											"http://www.instituteforhealthyairwaterandsoil.org/"], \
-										["league-of-mascots-louisville", \
-											"http://www.instituteforhealthyairwaterandsoil.org/"] \
-										] %>		
-								<% partners.each do |partner| %>
-									<div class="2u"><a href="<%= partner[1] %>" class="image fit">
-										<img src="images/partners/<%= partner[0] %>.png" alt="" style="border: 1px solid #708090;" /></a>
-									</div>
-								<% end %>
+								<% partners = CSV.read("./data/partners.csv") %>
+									<% partners.each do |partner| %>
+										<% image_file = "#{partner[0].downcase}.png" %> 
+										<% link = partner[1] %> 
+
+										<div class="2u">
+											<a href="<%= link %>" class="image fit"><img src="images/partners/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
+										</div>
+									<% end %>
 
 							</div>
 						</div>
@@ -115,7 +105,6 @@
 										<div class="4u">
 											<a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
 										</div>
-
 									<% end %>
 
 								</div>
@@ -143,7 +132,6 @@
 										<div class="2u">
 											<a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
 										</div>
-
 									<% end %>
 
 								</div>

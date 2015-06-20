@@ -1,55 +1,57 @@
 <!-- Main -->
-	<div id="main-wrapper">
-		<div class="container">
-			<div class="row 200%">
-				<div class="4u 12u$(medium)">
-					<div id="sidebar">
-						<h3>2015 Big Screen Bash Sponsors</h3>
+  <div id="main-wrapper">
+    <div class="container">
+      <div class="row 200%">
+        <div class="4u 12u$(medium)">
+          <div id="sidebar">
+          
+            <!-- Sidebar -->
+              <h3>2015 Big Screen Bash Sponsors</h3>
 
-						<% ["Platinum", "Gold", "Silver", "Media", "Table", "Supporting"].each do |sponsor_type| %>
-							<div class="row 100%">
-								<div class="12u 12u(medium)">
+              <% ["Platinum", "Gold", "Silver", "Media", "Table", "Supporting"].each do |sponsor_type| %>
+                <div class="row 100%">
+                  <div class="12u 12u(medium)">
 
-									<section class="widget thumbnails box">
-										<h4><%= sponsor_type %> Sponsors</h4>
-										<div class="grid">
-											<div class="row 50%">
+                    <section class="widget thumbnails box">
+                      <h4><%= sponsor_type %> Sponsors</h4>
+                      <div class="grid">
+                        <div class="row 50%">
 
-												<% sponsors = CSV.read("./data/sponsors-#{sponsor_type.downcase}.csv") %>
-												<% sponsors.each do |sponsor| %>
-													<% image_file = "#{sponsor[0].downcase}.png" %> 
-													<% link = sponsor[1] %> 
+                          <% sponsors = CSV.read("./data/sponsors-#{sponsor_type.downcase}.csv") %>
+                          <% sponsors.each do |sponsor| %>
+                            <% image_file = "#{sponsor[0].downcase}.png" %> 
+                            <% link = sponsor[1] %> 
 
-													<div class="6u">
-														<a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
-													</div>
-												<% end %>
+                            <div class="6u">
+                              <a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
+                            </div>
+                          <% end %>
 
-											</div>
-										</div>
-									</section>
+                        </div>
+                      </div>
+                    </section>
 
-								</div>
-							</div>
-						<% end %>
+                  </div>
+                </div>
+              <% end %>
 
-					</div>
-				</div>
+          </div>
+        </div>
 
-				<div class="8u 12u$(medium) important(medium)">
-					<div id="content">
+        <div class="8u 12u$(medium) important(medium)">
+          <div id="content">
 
-						<!-- Content -->
-							<article>
+            <!-- Content -->
+              <article>
 
-								<h3>Thanks to all of our supporters who have donated gifts of $100 and more to our Big Screen Bash.</h3>
-								<p>* Indicates Diamond Donor ($500 or more)</p>
-								<p>Please check back for a list of donors...</p>
+                <h3>Thanks to all of our supporters who have donated gifts of $100 and more to our Big Screen Bash.</h3>
+                <p>* Indicates Diamond Donor ($500 or more)</p>
+                <p>Please check back for a list of donors...</p>
 
-							</article>
+              </article>
 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

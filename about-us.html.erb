@@ -1,64 +1,65 @@
 <!-- Main -->
-	<div id="main-wrapper">
-		<div class="container">
-			<div class="row 200%">
-				<div class="3u 12u$(medium)">
-				
-					<div id="sidebar">
-						<!-- Sidebar -->
-							<section>
-								<h3>About Us</h3>
-								<p>A Breath of Fresh Air was formed by concerned individuals from varied backgrounds with the goal to raise awareness and funds for issues related to lung health and air quality. Journalists, engineers, educators, entrepreneurs, respiratory experts, writers, actors, physicians, nurses, communications and technology professionals pool skills, experience and creative resources to “do good while having a good time!  With a common passion for lung health and clean air, the decision to support the American Lung Association is an easy one.</p>
-							</section>
+  <div id="main-wrapper">
+    <div class="container">
+      <div class="row 200%">
+        <div class="3u 12u$(medium)">
+        
+          <div id="sidebar">
+            <!-- Sidebar -->
+              <section>
+                <h3>About Us</h3>
+                <p>A Breath of Fresh Air was formed by concerned individuals from varied backgrounds with the goal to raise awareness and funds for issues related to lung health and air quality. Journalists, engineers, educators, entrepreneurs, respiratory experts, writers, actors, physicians, nurses, communications and technology professionals pool skills, experience and creative resources to “do good while having a good time!  With a common passion for lung health and clean air, the decision to support the American Lung Association is an easy one.</p>
+              </section>
 
-							<section>
-								<h3>The Big Screen Bash</h3>
-								<p>This annual soiree is the result of a few of our charter members brainstorming an event that would be “creative, exciting and unusual” while raising money for a worthy charity.</p>
-							</section>
+              <section>
+                <h3>The Big Screen Bash</h3>
+                <p>This annual soiree is the result of a few of our charter members brainstorming an event that would be “creative, exciting and unusual” while raising money for a worthy charity.</p>
+              </section>
 
-							<section>
-								<h3>Past Years Events​</h3>
-								<p><b>2014-</b> Snips, Ships and Oompa Loompas: Featuring the Films of Johnny Depp, at The Olmsted</p>
-								<p><b>2013-</b> Dial M for Marvelous: A Silver Screen Soiree Celebrating Hitchcock, at The Olmsted</p>
-								<p><b>2012-</b> Here’s Lookin’ at You, Kid: A Celebration of 1940′s Silver Screen Stars, at the historic Brown Hotel</p>
-								<p><b>2011-</b> An Evening at the Blind Tiger: A Sold-out Speakeasy, at the historic Louisville Water Tower</p>
-								<p><b>2010-</b> Modern Woman Meets Medieval Man, at the Frazier History Museum</p>
-								<p><b>2009-</b> Celtic Samhain Festival</p>
-							<section>
-					</div>
+              <section>
+                <h3>Past Years Events​</h3>
+                <p><b>2014-</b> Snips, Ships and Oompa Loompas: Featuring the Films of Johnny Depp, at The Olmsted</p>
+                <p><b>2013-</b> Dial M for Marvelous: A Silver Screen Soiree Celebrating Hitchcock, at The Olmsted</p>
+                <p><b>2012-</b> Here’s Lookin’ at You, Kid: A Celebration of 1940′s Silver Screen Stars, at the historic Brown Hotel</p>
+                <p><b>2011-</b> An Evening at the Blind Tiger: A Sold-out Speakeasy, at the historic Louisville Water Tower</p>
+                <p><b>2010-</b> Modern Woman Meets Medieval Man, at the Frazier History Museum</p>
+                <p><b>2009-</b> Celtic Samhain Festival</p>
+              <section>
+          </div>
 
-				</div>
-				<div class="9u 12u$(medium) important(medium)">
-					<div id="content">
+        </div>
+        
+        <div class="9u 12u$(medium) important(medium)">
+          <div id="content">
 
-							<section class="widget thumbnails">
-								<h2>Our Team</h2>
-								<div class="grid">
-									<% volunteers = CSV.read("./data/volunteers.csv") %>
-									<% volunteers.each do |volunteer| %>
-										<% last_name = volunteer[0] %> 
-										<% first_name = volunteer[1] %> 
-										<% biography = volunteer[2] %> 
-										<% image_file = "#{last_name.downcase}-#{first_name.downcase}.png" %> 
+              <section class="widget thumbnails">
+                <h2>Our Team</h2>
+                <div class="grid">
+                  <% volunteers = CSV.read("./data/volunteers.csv") %>
+                  <% volunteers.each do |volunteer| %>
+                    <% last_name = volunteer[0] %> 
+                    <% first_name = volunteer[1] %> 
+                    <% biography = volunteer[2] %> 
+                    <% image_file = "#{last_name.downcase}-#{first_name.downcase}.png" %> 
 
-										<div class="row 50%">
-											<div class="3u">
-												<a href="#" class="image fit"><img src="images/volunteers/<%= image_file %>" alt="<%= "#{last_name}, #{first_name}" %>" /></a>
-											</div>
-											<div class="9u" style="line-height: 130%;">
-												<h3><%= "#{first_name} #{last_name}" %></h3>
-												<p><%= biography %></p>
-											</div>
-										</div>
+                    <div class="row 50%">
+                      <div class="3u">
+                        <a href="#" class="image fit"><img src="images/volunteers/<%= image_file %>" alt="<%= "#{last_name}, #{first_name}" %>" /></a>
+                      </div>
+                      <div class="9u" style="line-height: 130%;">
+                        <h3><%= "#{first_name} #{last_name}" %></h3>
+                        <p><%= biography %></p>
+                      </div>
+                    </div>
 
-									<% end %>
-								</div>
-								<br/>
-								<a href="index.html" class="button icon fa-home">Home</a>
-							</section>
+                  <% end %>
+                </div>
+                <br/>
+                <a href="index.html" class="button icon fa-home">Home</a>
+              </section>
 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

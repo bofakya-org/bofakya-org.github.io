@@ -1040,7 +1040,7 @@ input, select, textarea {
   line-height: 2.25em; }
 
 a {
-  color: #0090c5;
+  color: ForestGreen;
   text-decoration: underline; }
   a:hover {
     text-decoration: none; }
@@ -1136,7 +1136,7 @@ form textarea {
   form input[type="password"]:focus,
   form select:focus,
   form textarea:focus {
-    border-color: #0090c5; }
+    border-color: ForestGreen; }
 form input[type="text"],
 form input[type="email"],
 form input[type="password"] {
@@ -1219,7 +1219,7 @@ button,
   -webkit-appearance: none;
   position: relative;
   display: inline-block;
-  background: #0090c5;
+  background: ForestGreen;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
@@ -1254,9 +1254,9 @@ button,
   input[type="reset"].alt,
   button.alt,
   .button.alt {
-    background: #f1f1f1;
+    background: #ff4486;
     background: rgba(0, 0, 0, 0.05);
-    color: #444; }
+    color: #fff; }
     input[type="button"].alt:hover,
     input[type="submit"].alt:hover,
     input[type="reset"].alt:hover,

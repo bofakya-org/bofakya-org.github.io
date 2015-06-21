@@ -10,7 +10,7 @@
               <article>
 
                 <h3>Thanks to all of our supporters who have donated gifts of $100 or more to our Big Screen Bash!</h3>
-                <p>* Indicates Diamond Donor ($500 or more)</p>
+                <p>** Indicates Diamond Donor ($500 or more)</p>
 
                 <ul style="list-style-type:disc;">
                   <% donors = CSV.read("./data/donors.csv") %>
@@ -23,7 +23,7 @@
                       <% if diamond == "true" %>
                         <a href="<%= link %>" style="color:red">
                           <b><%= name %></b>
-                        </a>
+                        </a>**
                       <% else %>
                         <a href="<%= link %>">
                           <%= name %>

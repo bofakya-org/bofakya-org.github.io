@@ -20,14 +20,22 @@
                     <% diamond = donor[2] %> 
 
                     <li style="margin-left: 1.5em;">
-                      <% if diamond == "true" %>
-                        <a href="<%= link %>" style="color:red">
-                          <b><%= name %></b>
-                        </a>**
+                      <% if link != "" %>
+                        <% if diamond == "true" %>
+                          <a href="<%= link %>">
+                            <b style="color:red"><%= name %></b>
+                          </a>**
+                        <% else %>
+                          <a href="<%= link %>">
+                            <%= name %>
+                          </a>
+                        <% end %>
                       <% else %>
-                        <a href="<%= link %>">
+                        <% if diamond == "true" %>
+                          <b style="color:red"><%= name %></b>
+                        <% else %>
                           <%= name %>
-                        </a>
+                        <% end %>  
                       <% end %>
                     </li>
 

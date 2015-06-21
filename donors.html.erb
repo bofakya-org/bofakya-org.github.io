@@ -9,7 +9,8 @@
             <!-- Content -->
               <article>
 
-                <h2>Thanks to all of our supporters who have donated gifts of $100 or more to our Big Screen Bash!</h2>
+                <h2> Big Screen Bash Donors</h2>
+                <p>Thank you to all of our supporters who have donated gifts of $100 or more to our Big Screen Bash!</p>
                 <p style="color:red"><b>** Indicates Diamond Donor ($500 or more)</b></p>
 
                 <ul style="list-style-type:disc;">
@@ -23,8 +24,8 @@
                       <% if link != "" %>
                         <% if diamond == "true" %>
                           <a href="<%= link %>">
-                            <b style="color:red"><%= name %></b>
-                          </a>**
+                            <b style="color:red"><%= name %> **</b>
+                          </a>
                         <% else %>
                           <a href="<%= link %>">
                             <%= name %>
@@ -32,7 +33,7 @@
                         <% end %>
                       <% else %>
                         <% if diamond == "true" %>
-                          <b style="color:red"><%= name %></b>
+                          <b style="color:red"><%= name %> **</b>
                         <% else %>
                           <%= name %>
                         <% end %>  

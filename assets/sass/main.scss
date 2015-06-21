@@ -77,7 +77,7 @@
 	}
 
 	a {
-		color: ForestGreen;
+		color: #0090c5;
 		text-decoration: underline;
 
 		&:hover {
@@ -199,7 +199,7 @@
 			border: solid 1px #eee;
 
 			&:focus {
-				border-color: ForestGreen;
+				border-color: #0090c5;
 			}
 		}
 
@@ -329,7 +329,7 @@
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: ForestGreen;
+		background: #0090c5;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -355,9 +355,9 @@
 		}
 
 		&.alt {
-			background: #ff4486;
+			background: #f1f1f1;
 			background: rgba(0, 0, 0, 0.05);
-			color: #fff;
+			color: #444;
 
 			&:hover {
 				background: #e8e8e8;

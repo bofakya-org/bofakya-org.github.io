@@ -13,14 +13,13 @@
                 <p>* Indicates Diamond Donor ($500 or more)</p>
 
                 <ul style="list-style-type:disc;">
-                  <li style="margin-left: 1.5em;">
+                  <% donors = CSV.read("./data/donors.csv") %>
+                  <% donors.each do |donor| %>
+                    <% name = donor[0] %> 
+                    <% link = donor[1] %> 
+                    <% diamond = donor[2] %> 
 
-                    <% donors = CSV.read("./data/donors.csv") %>
-                    <% donors.each do |donor| %>
-                      <% name = donor[0] %> 
-                      <% link = donor[1] %> 
-                      <% diamond = donor[2] %> 
-
+                    <li style="margin-left: 1.5em;">
                       <% if diamond == "true" %>
                         <a href="<%= link %>" style="color:red">
                           <b><%= name %></b>
@@ -30,9 +29,9 @@
                           <%= name %>
                         </a>
                       <% end %>
-                    <% end %>
+                    </li>
 
-                  </li>
+                  <% end %>
                 </ul>
 
               </article>

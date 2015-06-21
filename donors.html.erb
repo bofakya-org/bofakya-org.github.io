@@ -11,7 +11,7 @@
 
                 <h2> Big Screen Bash Donors</h2>
                 <p>Thank you to all of our supporters who have donated gifts of $100 or more to our Big Screen Bash!</p>
-                <p style="color:red"><b>** Indicates Diamond Donor ($500 or more)</b></p>
+                <p><b>** Indicates Diamond Donor ($500 or more)</b></p>
 
                 <ul style="list-style-type:disc;">
                   <% donors = CSV.read("./data/donors.csv") %>
@@ -24,7 +24,7 @@
                       <% if link != "" %>
                         <% if diamond == "true" %>
                           <a href="<%= link %>">
-                            <b style="color:red"><%= name %> **</b>
+                            <b><%= name %> **</b>
                           </a>
                         <% else %>
                           <a href="<%= link %>">
@@ -33,7 +33,7 @@
                         <% end %>
                       <% else %>
                         <% if diamond == "true" %>
-                          <b style="color:red"><%= name %> **</b>
+                          <b><%= name %> **</b>
                         <% else %>
                           <%= name %>
                         <% end %>  

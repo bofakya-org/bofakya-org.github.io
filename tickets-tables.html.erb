@@ -1,0 +1,100 @@
+<!-- Main -->
+  <div id="main-wrapper">
+    <div class="container">
+      <div class="row 200%">
+        <div class="8u 12u$(medium)">
+          <div id="content">
+
+            <!-- Content -->
+              <article>
+                <h2>Ticket &amp; Table Information</h2>
+
+                <section>
+	                <h3>Celebrate the Superheros in the Movies for only $150!</h3>
+
+	                <p>In its 7th year, the ALA of Kentucky October event is one of Louisville’s most exciting Fall events.  Planned for corporate, small business, and individual entertaining, this fundraiser offers a fun night out that benefits one of the most important health-centered charities in Kentuckiana.  This year’s event, <b>It'a a Bird, It's a Plane, It's a Superparty</b>, will not disappoint!  Guests will be treated to and involved in a “Big Screen Bash" featuring superheros in the movies.</p>
+
+	                <a href="https://alamid.ejoinme.org/MyEvents/BreathofFreshAir2014/TicketTableInformation/tabid/535315/Default.aspx" class="button medium icon fa-ticket">Purchase Tickets</a>
+              	</section>  
+
+              	<section>
+	              	<h3>Get a group together for a night of fun!</h3>
+
+	                <p>Get a group together for a night of fun! For $1200, you can purchase a table that will seat you and 7 of your friends or co-workers. It's an easy way to support a worthy cause while having a great time.</p>
+
+	                <a href="https://alamid.ejoinme.org/MyEvents/BreathofFreshAir2014/BecomeASponsor/tabid/535314/Default.aspx" class="button medium icon fa-users">Purchase A Table</a>
+              	</section>
+
+              	<section>
+	              	<h3>All proceeds benefit the American Lung Association!</h3>
+
+	                <p>All ticket proceeds and donations benefit the American Lung Association, the nation’s oldest not-for-profit health charity.  The ALA is dedicated to the mission of saving lives by preventing lung disease and improving lung health for people of all ages.  The "Big Screen Bash" event provides a critical source of revenue to fund the charity’s important mission.</p>
+
+	                <h4>Proceeds help to support the following:</h4>
+	                <ul style="list-style-type:disc;">
+                    <li style="margin-left: 1.5em;">Medical education/research: UofL recently received $2 million for lung cancer vaccine research</li> 
+                    <li style="margin-left: 1.5em;">School and community health programs</li>
+                    <li style="margin-left: 1.5em;">Tobacco control (smoke-free public places) and smoking cessation</li>
+                    <li style="margin-left: 1.5em;">Asthma education and support services</li>
+                    <li style="margin-left: 1.5em;">Clean air iniatives</li>
+                  </ul>
+                </section>
+
+                <section>
+                	<h3> Powered by Lungs</h3>
+                	
+                  <p>The need for clean air and lung health awareness is great in our community.  After all, “if you can’t breathe, nothing else matters.”</p>	
+
+                  <div class="row 100%">
+	                  <div class="5u 12u(medium)">
+                  		<a href="www.kylung.org" class="image fit"><img src="images/powered-by-lungs.png" alt="" style="border: 1px solid #708090;" /></a>
+	                  </div>
+	                  <div class="7u 12u(medium)">
+	                  </div>
+	                </div>
+
+              	</section>
+
+              </article>
+
+          </div>
+        </div>
+
+        <div class="4u 12u$(medium)">
+          <div id="sidebar">
+
+            <!-- Sidebar -->
+              <h3>2015 Big Screen Bash Sponsors</h3>
+
+              <% ["Platinum", "Gold", "Silver", "Media", "Table", "Supporting"].each do |sponsor_type| %>
+                <div class="row 100%">
+                  <div class="12u 12u(medium)">
+
+                    <section class="widget thumbnails box">
+                      <h4><%= sponsor_type %> Sponsors</h4>
+                      <div class="grid">
+                        <div class="row 50%">
+
+                          <% sponsors = CSV.read("./data/sponsors-#{sponsor_type.downcase}.csv") %>
+                          <% sponsors.each do |sponsor| %>
+                            <% image_file = "#{sponsor[0].downcase}.png" %> 
+                            <% link = sponsor[1] %> 
+
+                            <div class="6u">
+                              <a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
+                            </div>
+                          <% end %>
+
+                        </div>
+                      </div>
+                    </section>
+
+                  </div>
+                </div>
+              <% end %>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

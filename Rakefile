@@ -82,7 +82,18 @@ task :live do
   `git stash pop`
 end
 
-desc 'Compile, Add/Commit/Push and Publish/Live'
+desc 'Compile, Add/Commit/Push, Publish, Live'
+task :build do
+  Rake::Task[:compile].invoke
+  Rake::Task[:checkin].invoke
+  Rake::Task[:publish].invoke
+  #Rake::Task[:live].invoke
+  puts <<-INFO
+Update complete!
+  INFO
+end
+
+desc 'Compile, Add/Commit/Push, Publish, Live'
 task :update do
   Rake::Task[:compile].invoke
   Rake::Task[:checkin].invoke

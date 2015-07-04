@@ -55,37 +55,7 @@
 
         <div class="4u 12u$(medium)">
           <div id="sidebar">
-          
-            <!-- Sidebar -->
-              <h3>2015 Big Screen Bash Sponsors</h3>
-
-              <% ["Platinum", "Gold", "Silver", "Media", "Table", "Supporting"].each do |sponsor_type| %>
-                <div class="row 100%">
-                  <div class="12u 12u(medium)">
-
-                    <section class="widget thumbnails box">
-                      <h4><%= sponsor_type %> Sponsors</h4>
-                      <div class="grid">
-                        <div class="row 50%">
-
-                          <% sponsors = CSV.read("./data/sponsors-#{sponsor_type.downcase}.csv") %>
-                          <% sponsors.each do |sponsor| %>
-                            <% image_file = "#{sponsor[0].downcase}.png" %> 
-                            <% link = sponsor[1] %> 
-
-                            <div class="6u">
-                              <a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="border: 1px solid #708090;" /></a>
-                            </div>
-                          <% end %>
-
-                        </div>
-                      </div>
-                    </section>
-
-                  </div>
-                </div>
-              <% end %>
-
+            <%= render 'sponsors-sidebar-partial.html.erb' %>
           </div>
         </div>
 

@@ -1,57 +1,71 @@
-"1792 Distillery","http://www.1792bourbon.com/",true
-"211 Clover Lane","http://211clover.com/",true
-"Aesthetics in Jewelry","http://aestheticsinjewelry.com/",false
-"Anonymous","",true
-"Anonymous","",true
-"Anonymous","",true
-"Belle of Louisville","http://www.belleoflouisville.org/",true
-"Bluegrass Motorsport","http://www.bluegrassauto.com/",true
-"Bourbon Barrel Foods","http://bourbonbarrelfoods.com/",true
-"Bourbon’s Restaurant","http://www.bourbonsbistro.com/Bourbons/home.html",false
-"Bristol Bar & Grille","http://www.bristolbarandgrille.com/",false
-"Broadway Across America/PNC","",false
-"Café Classico","http://www.caffe-classico.com/",false
-"Café’ Fraiche","http://www.cafe-fraiche.com/",true
-"Cellar Door Chocolates","http://www.cellardoorchocolates.com/",true
-"Campari/Wild Turkey Distillery","http://www.camparigroup.com/en/brands/whisky/wild-turkey?#legalage",true
-"Center Stage Theater","",false
-"Dandelion in the Vogue Center","http://dandelionhome.com/",false
-"Elements Massage","http://elementsmassage.com/louisvilleeast",true
-"Executive Image Customer Clothier","https://www.facebook.com/ExecutiveImageCustomClothier",false
-"Forme Millinery","http://www.formeonlineshop.com/",false
-"Frank Browning/French Home","",false
-"French Lick/West Baden","http://www.frenchlick.com/hotels/westbaden",true
-"Galt House","http://www.galthouse.com/",true
-"Harvest Restaurant","http://www.harvestlouisville.com/",false
-"Highland Cleaners","http://www.highlandcleaners.com/",false
-"HomeFit Personal Training","http://www.homefit.us/",true
-"Huber’s Orchard & Winery","http://www.huberwinery.com/",true
-"Kentucky Kingdom","http://www.kentuckykingdom.com/",false
-"Ladybug Gifts","http://ladybugprospect.com/",false
-"Lake Forest Country Club","http://www.lakeforestgolf.com/",false
-"Lilly's","",false
-"Listing ALL Cars","http://www.listingallcars.com/",true
-"Louis le Francais Restaurant","",false
-"Louisville Tennis Club","http://www.louisvilletennis.com/",false
-"Macy’s","http://www.macys.com/",false
-"Makers Mark/Bill Samuels","https://www.makersmark.com/",true
-"Mayan Café","http://themayancafe.com/",true
-"Morris’ Liquor & Deli","https://plus.google.com/100919665816695268915/about?gl=us&hl=en",false
-"Old 502 Winery","http://old502.com/verify.php?return=/&x=-1",true
-"Paula Beckmann","",true
-"Rosalind Adair","",false
-"Residence Inn","",false
-"Salzman's Skin Spa","http://www.skinspabysalzman.com/",true
-"ShaneLee Boutique in Paducah","https://plus.google.com/112616956149816590846/about?gl=us&hl=en",false
-"Silver Dollar Restaurant","http://www.whiskeybythedrink.com/",false
-"Simplicity Salon","https://plus.google.com/107175477228638740473/about?gl=us&hl=en",false
-"Southern Wine & Spirits","http://www.southernwine.com/",true
-"Speed Museum","http://www.speedmuseum.org/visit.html",false
-"St. Matthews Car Wash","https://plus.google.com/109612620883554111365/about?gl=us&hl=en",false
-"Taste Fine Wines & Bourbon","",false
-"The Café","http://www.thecafe.ws/thecafe/main.html",false
-"Tumbleweed Restaurant","http://tumbleweedrestaurants.com/",false
-"U of L Athletic Dept.","http://www.gocards.com/",false
-"UPS","http://www.ups.com/",true
-"Verbena Café","http://verbenacafe.com/",false
-"Z Salon & Spa","http://www.zsalon.com/",false
+"1792 Distillery","http://www.1792bourbon.com/",false,in
+"211 Clover Lane","http://211clover.com/",false,out
+"21c Museum Hotel & Proof","http://www.21cmuseumhotels.com/louisville/?utm_source=google&utm_medium=ppc&utm_content=text_ad&utm_campaign=ps-louisville&gclid=CNDDyOC_ysYCFQwyaQodYJAB7A",true,in
+"Aesthetics in Jewelry","http://aestheticsinjewelry.com/",false,in
+"Belle of Louisville","http://www.belleoflouisville.org/",false,in
+"Bistro 1860","http://bistro1860.com/",false,in
+"Bluegrass Motorsport","http://www.bluegrassauto.com/",false,out
+"Bourbon Barrel Foods","http://bourbonbarrelfoods.com/",false,out
+"Bourbon’s Restaurant","http://www.bourbonsbistro.com/Bourbons/home.html",false,out
+"Bristol Bar & Grille","http://www.bristolbarandgrille.com/",false,out
+"Broadway Across America/PNC","",false,out
+"Brown Hotel","http://www.brownhotel.com/",false,in
+"Caffé Classico","http://www.caffe-classico.com/",false,in
+"Café’ Fraiche","http://www.cafe-fraiche.com/",false,out
+"Campari/Wild Turkey Distillery","http://www.camparigroup.com/en/brands/whisky/wild-turkey?#legalage",false,out
+"Cellar Door Chocolates","http://www.cellardoorchocolates.com/",false,in
+"Center Stage Theater","",false,out
+"Comfy Cow","http://www.thecomfycow.com/",false,in
+"Cooking at the Cottage","https://www.cookingatthecottage.com/site/",false,in
+"Crushed Ice Events","http://www.crushediceevents.com/",true,in
+"Dandelion in the Vogue Center","http://dandelionhome.com/",false,out
+"Derby Eve Gala","http://derbyevegala.org/",false,in
+"Elements Massage","http://elementsmassage.com/louisvilleeast",false,out
+"Executive Image Customer Clothier","https://www.facebook.com/ExecutiveImageCustomClothier",false,out
+"Forme Millinery","http://www.formeonlineshop.com/",false,out
+"Frank Browning/French Home","",false,out
+"French Lick/West Baden","http://www.frenchlick.com/hotels/westbaden",true,in
+"Galt House","http://www.galthouse.com/",false,out
+"Harvest Restaurant","http://www.harvestlouisville.com/",false,in
+"Highland Cleaners","http://www.highlandcleaners.com/",false,in
+"HomeFit Personal Training","http://www.homefit.us/",true,in
+"Huber’s Orchard & Winery","http://www.huberwinery.com/",false,out
+"Jack Fry's","http://www.jackfrys.com/",false,in
+"Kentucky Kingdom","http://www.kentuckykingdom.com/",false,out
+"Ladybug Gifts","http://ladybugprospect.com/",false,out
+"Lake Forest Country Club","http://www.lakeforestgolf.com/",false,out
+"Bistro Le Relais","http://www.lerelaisrestaurant.com/",false,in
+"Lilly's Bistro","http://lillysbistro.com/",false,in
+"Listing ALL Cars","http://www.listingallcars.com/",false,out
+"Louis le Francais Restaurant","",false,out
+"Louisville Tennis Club","http://www.louisvilletennis.com/",false,out
+"Louvino (Dannie Greeson-Bramblett) Mgr","",false,in
+"Macy’s","http://www.macys.com/",false,out
+"Makers Mark/Bill Samuels","https://www.makersmark.com/",false,out
+"Mayan Café","http://themayancafe.com/",false,out
+"Molly Malone's","http://www.mollymalonesirishpub.com/",false,in
+"Morris’ Liquor & Deli","https://plus.google.com/100919665816695268915/about?gl=us&hl=en",false,out
+"Old 502 Winery","http://old502.com/verify.php?return=/&x=-1",false,out
+"Paula Beckmann","",false,out
+"Residence Inn","",false,out
+"Rosalind Adair","",false,out
+"Salzman's Skin Spa","http://www.skinspabysalzman.com/",false,out
+"Seviche","http://www.sevicherestaurant.com/",false,in
+"ShaneLee Boutique in Paducah","https://plus.google.com/112616956149816590846/about?gl=us&hl=en",false,out
+"Silver Dollar Restaurant","http://www.whiskeybythedrink.com/",false,out
+"Simplicity Salon","https://plus.google.com/107175477228638740473/about?gl=us&hl=en",false,out
+"Sophisticated Living","",false,in
+"Southern Wine & Spirits","http://www.southernwine.com/",false,out
+"Speed Museum","http://www.speedmuseum.org/visit.html",false,out
+"St. Matthews Car Wash","https://plus.google.com/109612620883554111365/about?gl=us&hl=en",false,in
+"Taste Fine Wines & Bourbon","",false,out
+"The Café","http://www.thecafe.ws/thecafe/main.html",false,out
+"The Wine Rack","http://wineshoplouisville.com/",false,in
+"Today's Woman","",false,in
+"Tumbleweed Restaurant","http://tumbleweedrestaurants.com/",false,in
+"U of L Athletic Dept.","http://www.gocards.com/",false,out
+"UPS","http://www.ups.com/",false,out
+"Uptown Cafe","http://www.uptownlouisville.com/uptowncafe/",false,in
+"Verbena Café","http://verbenacafe.com/",false,out
+"Whayne Supply","http://whayne.com/",true,in
+"Z Salon & Spa","http://www.zsalon.com/",false,out

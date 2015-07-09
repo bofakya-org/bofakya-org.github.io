@@ -1,7 +1,7 @@
-<h2>2015 Big Screen Bash Sponsors</h2>
+<h2>2015 Big Screen Bash Sponsors!!</h2>
 
 <div class="row 100%">
-  <% ["Platinum!", "Gold"].each do |sponsor_type| %>
+  <% ["Platinum", "Gold"].each do |sponsor_type| %>
     <% sponsors = CSV.read("./data/sponsors-#{sponsor_type.downcase}.csv") %>
     <% if sponsors.size > 0 %>
 

@@ -16,7 +16,7 @@
                 <% raffle_items = CSV.read("./data/raffle-items.csv") %>
                 <% raffle_items.each do |item| %>
                   <% title = item[0] %> 
-                  <% image_file = item[1] %> 
+                  <% image_file = "#{item[1]}.png" %> 
                   <% description = item[2] %> 
                   <% value = item[3] %>
 

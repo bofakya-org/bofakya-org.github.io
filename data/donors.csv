@@ -1,29 +1,32 @@
 "1792 Distillery","http://www.1792bourbon.com/",false,in
-"211 Clover Lane","http://211clover.com/",false,out
+"211 Clover Lane","http://211clover.com/",true,in
 "21c Museum Hotel & Proof","http://www.21cmuseumhotels.com/louisville/?utm_source=google&utm_medium=ppc&utm_content=text_ad&utm_campaign=ps-louisville&gclid=CNDDyOC_ysYCFQwyaQodYJAB7A",true,in
 "Aesthetics in Jewelry","http://aestheticsinjewelry.com/",false,in
 "Belle of Louisville","http://www.belleoflouisville.org/",false,in
 "Bistro 1860","http://bistro1860.com/",false,in
 "Bistro Le Relais","http://www.lerelaisrestaurant.com/",false,in
-"Bluegrass Motorsport","http://www.bluegrassauto.com/",false,out
+"Bluegrass Motorsport","http://www.bluegrassauto.com/",true,in
 "Bourbon Barrel Foods","http://bourbonbarrelfoods.com/",false,out
 "Bourbon’s Restaurant","http://www.bourbonsbistro.com/Bourbons/home.html",false,out
 "Bristol Bar & Grille","http://www.bristolbarandgrille.com/",false,out
 "Broadway Across America/PNC","",false,out
 "Brown Hotel","http://www.brownhotel.com/",false,in
-"Caffé Classico","http://www.caffe-classico.com/",false,in
+"The Café","http://www.thecafe.ws/thecafe/main.html",false,out
 "Café’ Fraiche","http://www.cafe-fraiche.com/",false,out
+"Caffé Classico","http://www.caffe-classico.com/",false,in
 "Campari/Wild Turkey Distillery","http://www.camparigroup.com/en/brands/whisky/wild-turkey?#legalage",false,out
-"Cellar Door Chocolates","http://www.cellardoorchocolates.com/",false,in
+"Carmichael's Bookstore","http://www.carmichaelsbookstore.com/",false,in
+"Casa Cielo","",true,in
+"Cellar Door Chocolates","http://www.cellardoorchocolates.com/",true,in
 "Center Stage Theater","",false,out
 "Comfy Cow","http://www.thecomfycow.com/",false,in
 "Cooking at the Cottage","https://www.cookingatthecottage.com/site/",false,in
 "Crushed Ice Events","http://www.crushediceevents.com/",true,in
 "Dandelion in the Vogue Center","http://dandelionhome.com/",false,out
-"Derby Eve Gala","http://derbyevegala.org/",false,in
-"Elements Massage","http://elementsmassage.com/louisvilleeast",false,out
+"Derby Eve Gala","http://derbyevegala.org/",true,in
+"Elements Massage","http://elementsmassage.com/louisvilleeast",true,in
 "Executive Image Customer Clothier","https://www.facebook.com/ExecutiveImageCustomClothier",false,out
-"Forme Millinery","http://www.formeonlineshop.com/",false,out
+"Forme Millinery Hat Shop","http://www.formeonlineshop.com/",true,in
 "Frank Browning/French Home","",false,out
 "French Lick/West Baden","http://www.frenchlick.com/hotels/westbaden",true,in
 "Galt House","http://www.galthouse.com/",false,out
@@ -39,7 +42,7 @@
 "Listing ALL Cars","http://www.listingallcars.com/",false,out
 "Louis le Francais Restaurant","",false,out
 "Louisville Tennis Club","http://www.louisvilletennis.com/",false,out
-"Louvino (Dannie Greeson-Bramblett) Mgr","",false,in
+"Louvino","",false,in
 "Macy’s","http://www.macys.com/",false,out
 "Makers Mark/Bill Samuels","https://www.makersmark.com/",false,out
 "Mayan Café","http://themayancafe.com/",false,out
@@ -48,6 +51,7 @@
 "Old 502 Winery","http://old502.com/verify.php?return=/&x=-1",false,out
 "Paula Beckmann","",false,out
 "Residence Inn","",false,out
+"Rodes for Her","http://www.rodes.com/",false,in
 "Rosalind Adair","",false,out
 "Salzman's Skin Spa","http://www.skinspabysalzman.com/",true,in
 "Seviche","http://www.sevicherestaurant.com/",false,in
@@ -59,13 +63,13 @@
 "Speed Museum","http://www.speedmuseum.org/visit.html",false,out
 "St. Matthews Car Wash","https://plus.google.com/109612620883554111365/about?gl=us&hl=en",false,in
 "Taste Fine Wines & Bourbon","",false,out
-"The Café","http://www.thecafe.ws/thecafe/main.html",false,out
-"The Wine Rack","http://wineshoplouisville.com/",false,in
 "Today's Woman","",false,out
 "Tumbleweed Restaurant","http://tumbleweedrestaurants.com/",false,in
 "U of L Athletic Dept.","http://www.gocards.com/",false,out
-"UPS","http://www.ups.com/",false,out
+"UPS","http://www.ups.com/",true,in
 "Uptown Cafe","http://www.uptownlouisville.com/uptowncafe/",false,in
 "Verbena Café","http://verbenacafe.com/",false,out
 "Whayne Supply","http://whayne.com/",true,in
-"Z Salon & Spa","http://www.zsalon.com/",false,out
+"The Wine Rack","http://wineshoplouisville.com/",false,in
+"The Wulfe Bros","http://www.wulfebros.com/",true,in
+"Z Salon & Spa","http://www.zsalon.com/",false,in

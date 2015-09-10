@@ -46,7 +46,7 @@
 "Louvino","http://www.louvino.com/",false,in
 "Macy’s","http://www.macys.com/",false,out
 "Makers Mark/Bill Samuels","https://www.makersmark.com/",false,out
-"Mayan Café","http://themayancafe.com/",false,out
+"Mayan Café","http://themayancafe.com/",false,in
 "Molly Malone's","http://www.mollymalonesirishpub.com/",false,in
 "Morris’ Liquor & Deli","https://plus.google.com/100919665816695268915/about?gl=us&hl=en",false,out
 "Old 502 Winery","http://old502.com/verify.php?return=/&x=-1",false,out
@@ -55,6 +55,7 @@
 "Residence Inn","",false,out
 "Rodes for Her","http://www.rodes.com/",false,in
 "Rosalind Adair","",false,out
+"Dr. Elliott Rosengarten","",false,in
 "Salzman's Skin Spa","http://www.skinspabysalzman.com/",true,in
 "Samtec","https://www.samtec.com/",true,in
 "Seviche","http://www.sevicherestaurant.com/",false,in

@@ -1,5 +1,5 @@
-"1792 Distillery","http://www.1792bourbon.com/",false,in
-"211 Clover Lane","http://211clover.com/",true,in
+"1792 Distillery","http://www.1792bourbon.com/",true,in
+"211 Clover Lane","http://211clover.com/",true,itrue
 "21c Museum Hotel & Proof","http://www.21cmuseumhotels.com/louisville/?utm_source=google&utm_medium=ppc&utm_content=text_ad&utm_campaign=ps-louisville&gclid=CNDDyOC_ysYCFQwyaQodYJAB7A",true,in
 "Actors Theatre of Louisville","http://actorstheatre.org/",false,in
 "Aesthetics in Jewelry","http://aestheticsinjewelry.com/",false,in
@@ -31,10 +31,13 @@
 "Frank Browning/French Home","",false,out
 "French Lick/West Baden","http://www.frenchlick.com/hotels/westbaden",true,in
 "Galt House","http://www.galthouse.com/",false,out
+"Todd Haines","",true,in
+"Hard Scuffle, Inc.","",true,in
 "Harvest Restaurant","http://www.harvestlouisville.com/",false,in
 "Highland Cleaners","http://www.highlandcleaners.com/",false,in
 "HomeFit Personal Training","http://www.homefit.us/",true,in
 "Huber’s Orchard & Winery","http://www.huberwinery.com/",false,out
+"InSync With You","http://www.insyncwithyou.com/",false,in
 "Jack Fry's","http://www.jackfrys.com/",false,in
 "Kentucky Kingdom","http://www.kentuckykingdom.com/",false,out
 "Ladybug Gifts","http://ladybugprospect.com/",false,out
@@ -45,7 +48,7 @@
 "Louisville Tennis Club","http://www.louisvilletennis.com/",false,out
 "Louvino","http://www.louvino.com/",false,in
 "Macy’s","http://www.macys.com/",false,out
-"Makers Mark/Bill Samuels","https://www.makersmark.com/",false,out
+"Maker's Mark","https://www.makersmark.com/",true,in
 "Mayan Café","http://themayancafe.com/",false,in
 "Molly Malone's","http://www.mollymalonesirishpub.com/",false,in
 "Morris’ Liquor & Deli","https://plus.google.com/100919665816695268915/about?gl=us&hl=en",false,out

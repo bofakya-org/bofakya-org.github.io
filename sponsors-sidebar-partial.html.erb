@@ -16,12 +16,15 @@
                 <% image_file = "#{sponsor[0].downcase}.png" %> 
                 <% link = sponsor[1] %> 
 
+                <!--
                 <% if sponsor_type == "Platinum" %>
                   <div class="12u">
                 <% else %>
                   <div class="6u">
                 <% end %>
+                -->
 
+                  <div class="6u">
                     <a href="<%= link %>" class="image fit"><img src="images/sponsors-<%= sponsor_type.downcase %>/<%= image_file %>" alt="" style="-ms-interpolation-mode: bicubic; background:rgba(255,255,255,.001); image-rendering: auto;border: 1px solid #708090;" /></a>
                   </div>
 

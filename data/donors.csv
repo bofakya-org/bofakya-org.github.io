@@ -6,7 +6,7 @@
 "Albertos’s Italian Restaurant","",true,in
 "Avanti Spa, Westport Village","",false,in
 "Belle of Louisville","http://www.belleoflouisville.org/",false,in
-"Big Four Burgers","",false,in
+"Big Four Burgers","http://www.bigfourburgers.com",false,in
 "Bistro 1860","http://bistro1860.com/",false,in
 "Bistro Le Relais","http://www.lerelaisrestaurant.com/",false,in
 "Bluegrass Motorsport","http://www.bluegrassauto.com/",true,in
@@ -15,7 +15,7 @@
 "Bristol Bar & Grille","http://www.bristolbarandgrille.com/",false,out
 "Broadway in Louisville - PNC","http://louisville.broadway.com/",false,in
 "Brown Hotel","http://www.brownhotel.com/",false,in
-"Buck’s Restaurant","",false,in
+"Buck’s Restaurant and Bar","http://www.buckslou.com",false,in
 "Caffé Classico","http://www.caffe-classico.com/",false,in
 "Café’ Fraiche","http://www.cafe-fraiche.com/",false,out
 "Campari/Wild Turkey Distillery","http://www.camparigroup.com/en/brands/whisky/wild-turkey?#legalage",false,out
@@ -23,71 +23,70 @@
 "Casa Cielo","",true,in
 "Cellar Door Chocolates","http://www.cellardoorchocolates.com/",true,in
 "Center Stage at the Community Center","https://jewishlouisville.org/jcc/centerstage/",false,in
-"Chuck & Mikes Tennis Shop","",false,in
-"CirceSwag","",false,in
-"Collections, Westport Village","",false,in
+"Chuck & Mikes Tennis Shop","http://chuckandmikestennis.com",false,in
+"CirceSwag","http://circeswag.com",false,in
+"Collections, Westport Village","https://www.collectionscloset.com",false,in
 "Comfy Cow","http://www.thecomfycow.com/",false,in
 "Cooking at the Cottage","https://www.cookingatthecottage.com/site/",false,in
-"Copper & Kings","",false,in
+"Copper & Kings","http://www.copperandkings.com",false,in
 "Crushed Ice Events","http://www.crushediceevents.com/",true,in
 "Dandelion in the Vogue Center","http://dandelionhome.com/",false,out
-"David Schaffer, DMD","",false,in
+"David Schaffer, DMD","http://www.smilesoflouisville.com/contact-us.html",false,in
 "Deborah & Bill Evans","",true,in
-"Derby Dinner Playhouse","",false,in
+"Derby Dinner Playhouse","http://derbydinner.com",false,in
 "Derby Eve Gala","http://derbyevegala.org/",true,in
-"Dr. Elliott Rosengarten","",false,in
-"Dress & Dwell Boutique","",false,in
+"Dress & Dwell Boutique","http://dressanddwell.com",false,in
 "Elements Massage","http://elementsmassage.com/louisvilleeast",true,in
-"Elliot Rosengarten DD PSC","",false,in
+"Elliot Rosengarten, DD PSC","http://www.drrosengarten.com",false,in
 "Executive Image Customer Clothier","https://www.facebook.com/ExecutiveImageCustomClothier",false,out
 "Forme Millinery Hat Shop","http://www.formeonlineshop.com/",true,in
 "Frank Browning/French Home","",false,out
 "French Lick/West Baden","http://www.frenchlick.com/hotels/westbaden",true,in
 "Galt House","http://www.galthouse.com/",false,out
-"Hair Directions","",false,in
+"Hair Directions","http://hairdirectionsbyrandy.com",false,in
 "Hard Scuffle, Inc.","",true,in
 "Harvest Restaurant","http://www.harvestlouisville.com/",false,in
-"Hayswood Theatre","",false,in
+"Hayswood Theatre","http://www.hayswoodtheatre.org",false,in
 "Highland Cleaners","http://www.highlandcleaners.com/",false,in
 "HomeFit Personal Training","http://www.homefit.us/",true,in
 "Huber’s Orchard & Winery","http://www.huberwinery.com/",false,out
 "InSync With You","http://www.insyncwithyou.com/",false,in
 "Jack Fry's","http://www.jackfrys.com/",false,in
-"Kentucky Center for the Arts","",false,in
+"The Kentucky Center","http://www.kentuckycenter.org",false,in
 "Kentucky Kingdom","http://www.kentuckykingdom.com/",false,in
-"Kintner House Inn","",false,in
+"Kintner House Inn","http://www.kintnerhouse.com",false,in
 "Ladybug Gifts","http://ladybugprospect.com/",false,in
 "Lake Forest Country Club","http://www.lakeforestgolf.com/",false,out
 "Lake Forest Golf Course","",false,in
 "Lilly's Bistro","http://lillysbistro.com/",false,in
 "Listing ALL Cars","http://www.listingallcars.com/",false,out
-"Louis le Francais Restaurant","",false,out
-"Louisville Ballet","",false,in
+"Louis le Francais Restaurant","http://louislefrancaischef.com",false,out
+"Louisville Ballet","https://louisvilleballet.org",false,in
 "Louisville Tennis Club","http://www.louisvilletennis.com/",false,out
 "Louvino","http://www.louvino.com/",false,in
 "Macy’s","http://www.macys.com/",false,out
 "Maker's Mark","https://www.makersmark.com/",true,in
 "Marie Smith","",false,in
-"Masterson’s","",false,in
+"Masterson’s Catering","http://www.mastersons.com",false,in
 "Mayan Café","http://themayancafe.com/",false,in
-"Mesh Restaurant","",false,in
+"Mesh Restaurant","http://www.meshrestaurants.com/louisville/",false,in
 "Molly Malone's","http://www.mollymalonesirishpub.com/",false,in
-"Monkees","",false,in
+"Monkees of Louisville","http://www.monkeesoflouisville.com",false,in
 "Morris’ Liquor & Deli","https://plus.google.com/100919665816695268915/about?gl=us&hl=en",false,out
-"Moss Hill","",false,in
-"Napa River Grille","",false,in
+"Moss Hill","https://www.mosshill.net",false,in
+"Napa River Grille","http://www.napariverlouisville.com",false,in
 "Old 502 Winery","http://old502.com/verify.php?return=/&x=-1",false,out
 "Olive Garden","",false,in
-"Orange Theory Fitness","",false,in
+"Orange Theory Fitness","http://www.orangetheoryfitness.com",false,in
 "Paula Beckmann","",false,out
 "Proformance Fitness and Wellness","http://www.proformanceresults.com",false,in
 "Pure Beauty Salon and Spa","https://www.facebook.com/purebeautyoxmoor",false,in
-"Ramsi’s","",false,in
-"Regalo, New Albany","",false,in
+"Ramsi’s Cafe on the World","http://www.ramsiscafe.com/contact-ramsis/",false,in
+"Regalo, New Albany","http://www.regaloart.com/locationshours.html",false,in
 "Residence Inn","",false,out
 "Rodes for Her","http://www.rodes.com/",false,in
 "Rosalind Adair","",false,out
-"Salon Delongay","",false,in
+"Salon Delonjay","http://www.salondelonjay.com",false,in
 "Salzman's Skin Spa","http://www.skinspabysalzman.com/",true,in
 "Samtec","https://www.samtec.com/",true,in
 "Seviche","http://www.sevicherestaurant.com/",false,in
@@ -99,10 +98,10 @@
 "Southern Wine & Spirits","http://www.southernwine.com/",false,out
 "Speed Museum","http://www.speedmuseum.org/visit.html",false,out
 "St. Matthews Car Wash","https://plus.google.com/109612620883554111365/about?gl=us&hl=en",false,in
-"Sunny Side of Louisville Basket","",false,in
+"Sunny Side of Louisville Basket","http://sunnysideoflouisville.org",false,in
 "Taste Fine Wines & Bourbon","",false,out
 "The Café","http://www.thecafe.ws/thecafe/main.html",false,out
-"The Exchange","",false,in
+"The Exchange Pub+Kitchen","http://www.exchangeforfood.com",false,in
 "The Wine Rack","http://wineshoplouisville.com/",false,in
 "The Wulfe Bros","http://www.wulfebros.com/",true,in
 "Today's Woman","",false,out
@@ -116,9 +115,9 @@
 "UL Hockey","http://www.cardsicehockey.com",false,in
 "UPS","http://www.ups.com/",true,in
 "Uptown Cafe","http://www.uptownlouisville.com/uptowncafe/",false,in
-"Varanese Restaurant","",false,in
+"Varanese Restaurant","http://varanese.com",false,in
 "Verbena Café","http://verbenacafe.com/",false,in
 "Whayne Supply","http://whayne.com/",true,in
-"Work the Metal","",false,in
+"Work the Metal","https://workthemetal.com",false,in
 "Z Salon & Spa","http://www.zsalon.com/",false,in
 "Z-Xpress Carwash","http://www.z-xpress.com",false,in

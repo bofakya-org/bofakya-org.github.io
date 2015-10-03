@@ -1,6 +1,7 @@
 "1792 Distillery","http://www.1792bourbon.com/",true,in
 "211 Clover Lane","http://211clover.com/",true,itrue
 "21c Museum Hotel & Proof","http://www.21cmuseumhotels.com/louisville/?utm_source=google&utm_medium=ppc&utm_content=text_ad&utm_campaign=ps-louisville&gclid=CNDDyOC_ysYCFQwyaQodYJAB7A",true,in
+"Rosalind Adair","",false,out
 "Actors Theatre of Louisville","http://actorstheatre.org/",false,in
 "Aesthetics in Jewelry","http://aestheticsinjewelry.com/",false,in
 "Albertos’s Italian Restaurant","",true,in
@@ -17,8 +18,10 @@
 "Brown Hotel","http://www.brownhotel.com/",false,in
 "Buck’s Restaurant and Bar","http://www.buckslou.com",false,in
 "Caffé Classico","http://www.caffe-classico.com/",false,in
+"The Café","http://www.thecafe.ws/thecafe/main.html",false,out
 "Café’ Fraiche","http://www.cafe-fraiche.com/",false,out
 "Campari/Wild Turkey Distillery","http://www.camparigroup.com/en/brands/whisky/wild-turkey?#legalage",false,out
+"Shawn Cardwell","",false,in
 "Carmichael's Bookstore","http://www.carmichaelsbookstore.com/",false,in
 "Casa Cielo","",true,in
 "Cellar Door Chocolates","http://www.cellardoorchocolates.com/",true,in
@@ -38,11 +41,13 @@
 "Dress & Dwell Boutique","http://dressanddwell.com",false,in
 "Elements Massage","http://elementsmassage.com/louisvilleeast",true,in
 "Elliot Rosengarten, DD PSC","http://www.drrosengarten.com",false,in
+"The Exchange Pub+Kitchen","http://www.exchangeforfood.com",false,in
 "Executive Image Customer Clothier","https://www.facebook.com/ExecutiveImageCustomClothier",false,out
 "Forme Millinery Hat Shop","http://www.formeonlineshop.com/",true,in
 "Frank Browning/French Home","",false,out
 "French Lick/West Baden","http://www.frenchlick.com/hotels/westbaden",true,in
 "Galt House","http://www.galthouse.com/",false,out
+"Todd Haines","",true,in
 "Hair Directions","http://hairdirectionsbyrandy.com",false,in
 "Hard Scuffle, Inc.","",true,in
 "Harvest Restaurant","http://www.harvestlouisville.com/",false,in
@@ -85,12 +90,14 @@
 "Regalo, New Albany","http://www.regaloart.com/locationshours.html",false,in
 "Residence Inn","",false,out
 "Rodes for Her","http://www.rodes.com/",false,in
-"Rosalind Adair","",false,out
+"Runner's Turf & Landscaping","",false,in
 "Salon Delonjay","http://www.salondelonjay.com",false,in
 "Salzman's Skin Spa","http://www.skinspabysalzman.com/",true,in
 "Samtec","https://www.samtec.com/",true,in
+"Seeds and Greens Natural Market & Deli","http://www.seedsandgreensmarket.com",false,in
 "Seviche","http://www.sevicherestaurant.com/",false,in
 "ShaneLee Boutique in Paducah","https://plus.google.com/112616956149816590846/about?gl=us&hl=en",false,out
+"Sherry’s Personal Pilates","https://sherryspersonalpilates.wordpress.com/about/",false,in
 "Sheers Salon & Spa","",false,in
 "Silver Dollar Restaurant","http://www.whiskeybythedrink.com/",false,in
 "Simplicity Salon","https://plus.google.com/107175477228638740473/about?gl=us&hl=en",false,out
@@ -100,12 +107,7 @@
 "St. Matthews Car Wash","https://plus.google.com/109612620883554111365/about?gl=us&hl=en",false,in
 "Sunny Side of Louisville Basket","http://sunnysideoflouisville.org",false,in
 "Taste Fine Wines & Bourbon","",false,out
-"The Café","http://www.thecafe.ws/thecafe/main.html",false,out
-"The Exchange Pub+Kitchen","http://www.exchangeforfood.com",false,in
-"The Wine Rack","http://wineshoplouisville.com/",false,in
-"The Wulfe Bros","http://www.wulfebros.com/",true,in
 "Today's Woman","",false,out
-"Todd Haines","",true,in
 "Tucker House Bed & Breakfast","http://www.tuckerhouse1840.com",false,in
 "Tumbleweed Restaurant","http://tumbleweedrestaurants.com/",false,in
 "UK Basketball","http://www.ukathletics.com/sport/m-baskbl",false,in
@@ -118,6 +120,8 @@
 "Varanese Restaurant","http://varanese.com",false,in
 "Verbena Café","http://verbenacafe.com/",false,in
 "Whayne Supply","http://whayne.com/",true,in
+"The Wine Rack","http://wineshoplouisville.com/",false,in
 "Work the Metal","https://workthemetal.com",false,in
+"The Wulfe Bros","http://www.wulfebros.com/",true,in
 "Z Salon & Spa","http://www.zsalon.com/",false,in
 "Z-Xpress Carwash","http://www.z-xpress.com",false,in

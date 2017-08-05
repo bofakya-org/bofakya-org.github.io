@@ -59,18 +59,41 @@ end
 
 desc 'Publish updated page'
 task :publish => [:generate] do
+  puts "------------- START [publish] -------------"
   Dir.mktmpdir { |dir|
+    puts "---01--- tmpdir[#{dir}]"
     mv FileList['public/*'], dir
+    puts "---03---"
     current_commit = `git rev-parse --short HEAD`
+    puts "---04---"
+
+    puts " >>>>>>>>>>>>>"
+    puts FileList['public/*']
+    puts " >>>>>>>>>>>>>"
+    
     `git stash`
+    puts "---05---"
+
+    puts " >>>>>>>>>>>>>"
+    puts FileList['public/*']
+    puts " >>>>>>>>>>>>>"
+
     `git checkout master`
+    puts "---06---"
     rm_rf FileList['*']
+    puts "---07---"
     mv FileList["#{dir}/*"], '.'
+    puts "---08---"
     `git add -A`
+    puts "---09---"
     `git commit -m 'published from #{current_commit}'`
+    puts "---10---"
     `git checkout source`
+    puts "---11---"
     `git stash pop`
+    puts "---12---"
   }
+  puts "------------- END [publish] -------------"
 end
 
 desc 'Push live'

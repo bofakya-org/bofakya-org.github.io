@@ -20,10 +20,20 @@
 	"buffers":
 	[
 		{
-			"file": "Rakefile",
+			"file": "data/sponsors-table.csv",
 			"settings":
 			{
-				"buffer_size": 5512,
+				"buffer_size": 473,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data/donors.csv",
+			"settings":
+			{
+				"buffer_size": 3535,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -60,7 +70,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io"
+		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io",
+		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data",
+		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/images",
+		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/images/sponsors-media",
+		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/images/sponsors-table"
 	],
 	"file_history":
 	[
@@ -144,31 +158,58 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Rakefile",
-					"semi_transient": true,
+					"file": "data/sponsors-table.csv",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5512,
+						"buffer_size": 473,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								472,
+								472
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "data/donors.csv",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3535,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

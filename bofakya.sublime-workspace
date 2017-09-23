@@ -36,6 +36,14 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "sponsors-sidebar-partial.html.erb",
+			"settings":
+			{
+				"buffer_size": 1309,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -78,11 +86,11 @@
 	],
 	"file_history":
 	[
+		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/donors.html.erb",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/index.html.erb",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data/donors.csv",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/big-screen-bash.html.erb",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/live-auction-items.html.erb",
-		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/donors.html.erb",
 		"/Users/cametel/Dropbox/template.html",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data/sponsors-gold.csv",
 		"/Users/cametel/Desktop/template.html",
@@ -158,7 +166,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -186,7 +194,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -210,6 +218,36 @@
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sponsors-sidebar-partial.html.erb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -23,7 +23,7 @@
 			"file": "data/sponsors-table.csv",
 			"settings":
 			{
-				"buffer_size": 473,
+				"buffer_size": 544,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -32,16 +32,8 @@
 			"file": "data/donors.csv",
 			"settings":
 			{
-				"buffer_size": 3535,
+				"buffer_size": 4183,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sponsors-sidebar-partial.html.erb",
-			"settings":
-			{
-				"buffer_size": 1309,
 				"line_ending": "Unix"
 			}
 		}
@@ -78,11 +70,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io",
-		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data",
-		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/images",
-		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/images/sponsors-media",
-		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/images/sponsors-table"
+		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io"
 	],
 	"file_history":
 	[
@@ -166,7 +154,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -175,15 +163,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 473,
+						"buffer_size": 544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								472,
-								472
+								505,
+								505
 							]
 						],
 						"settings":
@@ -194,7 +182,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -203,15 +191,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3535,
+						"buffer_size": 4183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								230,
-								230
+								828,
+								828
 							]
 						],
 						"settings":
@@ -220,37 +208,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sponsors-sidebar-partial.html.erb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1309,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 131.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

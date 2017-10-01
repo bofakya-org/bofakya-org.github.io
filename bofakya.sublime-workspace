@@ -20,19 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "data/sponsors-table.csv",
-			"settings":
-			{
-				"buffer_size": 544,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "data/donors.csv",
 			"settings":
 			{
-				"buffer_size": 4183,
+				"buffer_size": 4376,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -74,6 +65,7 @@
 	],
 	"file_history":
 	[
+		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data/sponsors-table.csv",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/donors.html.erb",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/index.html.erb",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data/donors.csv",
@@ -91,7 +83,6 @@
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/sponsorship-opportunities.html.erb",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data/sponsors-platinum.csv",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data/sponsors-supporting.csv",
-		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data/sponsors-table.csv",
 		"/Users/cametel/Documents/bofakya/bofakya-org.github.com/bofakya-org.github.io/data/sponsors-silver.csv",
 		"/Users/cametel/Downloads/eventrum/css/grid.css",
 		"/Users/cametel/Downloads/eventrum/css/camera.css",
@@ -154,52 +145,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "data/sponsors-table.csv",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 544,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								505,
-								505
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "data/donors.csv",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4183,
+						"buffer_size": 4376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								828,
-								828
+								2307,
+								2307
 							]
 						],
 						"settings":
@@ -208,7 +171,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 131.0,
+						"translation.y": 174.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -35,12 +35,14 @@
 "Hyatt Regency","https://regency.hyatt.com/en/hyattregency.html",false,in
 "In Bloom Again","http://www.inbloomagain.com/pages/inbloomagain.htm",true,in
 "Jack Fry’s","https://www.jackfrys.com",false,in
+"Kintner House Inn","http://www.kintnerhouse.com",false,in
 "Lilly's Bistro","http://lillysbistro.com",true,in
 "Louisville Ballet","https://www.louisvilleballet.org",false,in
 "Louisville Business First","https://www.bizjournals.com/louisville?t=1506123736",true,in
 "Louisville Stoneware","http://www.stonewareandco.com",false,in
 "Louisville Tennis Club","http://www.louisvilletennis.com/louisville_tennis_club/louisville_tennis_club_home.html",false,in
 "Makers Mark","https://www.makersmark.com/distillery",true,in
+"Mayan Cafe","https://themayancafe.com",false,in
 "Mia Bella Photography","http://www.miabphotography.com/index2.php#!/HOME",true,in
 "Nanz & Kraft","http://www.nanzandkraft.com",true,in
 "Old Bikes Belong","http://www.oldbikesbelong.com",true,in
@@ -51,9 +53,11 @@
 "Salzman Spa","https://www.itbecomesyou.com",false,in
 "Schaefer Advanced Dentistry","http://www.smilesoflouisville.com",false,in
 "Seelbach Hilton","http://www.seelbachhilton.com",false,in
+"Semonin Realtors","http://www.semonin.com",false,in
 "Sharpen the Lead"," ",false,in
 "Sophisticated Living","http://slmag.net",true,in
 "Southern Wine & Spirits of KY","http://www.southernglazers.com",true,in
+"Spa Natur","http://www.spanatur.com",true,in
 "Speed Museum","http://www.speedmuseum.org",true,in
 "Texas Roadhouse","https://www.texasroadhouse.com/restaurant-locations/kentucky/louisville-outer-loop",false,in
 "The Wulfe Bros","http://www.wulfebros.com",true,in
@@ -63,6 +67,7 @@
 "UK Basketball","http://www.ukathletics.com",true,in
 "UK Football","http://www.ukathletics.com",true,in
 "University Club","http://www.uclublouisville.org/?doing_wp_cron=1506124264.8253500461578369140625",false,in
+"University of Louisville Ice Hockey Team","http://www.cardsicehockey.com",false,in
 "UPS Flight Simulator"," ",true,in
 "Vein Treatment & Aesthetic Center","http://www.veintreatments.com/home.htm",false,in
 "Verbena","http://verbenacafe.com",false,in

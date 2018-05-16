@@ -1,26 +1,85 @@
-# BoFA (A Breath of Fresh Air) Website
+Set up Git (based on Linux distribution): https://git-scm.com/download/linux
 
-## Intial Setup of Repository
+**sudo apt install git**
 
-1. Create a new folder where your page is gonna live
+Set your username in Git: https://help.github.com/articles/setting-your-username-in-git/
 
-		mkdir bofakya-org.github.com 
-		cd bofakya-org.github.com
+**git config —global user.name “ometel”**
 
-2. Set up Stasis project for GitHub Pages in local directory 
+Set your commit email address in Git: https://help.github.com/articles/setting-your-commit-email-address-in-git/
 
-		curl https://raw.github.com/sideshowcoder/github-stasis/master/Rakefile > Rakefile 
-		rake setup_repository_for_github_user_page
+**git config --global user.email "email@example.com"**
 
-3. Create a new repostitory on github
+Create a local clone of the BOFAKYA repository: 
 
-4. Update repository
+**git clone https://github.com/bofakya-org/bofakya-org.github.io.git**
 
-		git remote add origin https://github.com/bofakya-org/bofakya-org.github.io.git
-		git push -u --all origin
+**cd bofakya-org.github.io**
 
-	or
+Type ls to see the files.  Notice that there are no ERB files—because this is the “master” branch.
 
-		git remote add origin https://github.com/bofakya-org/bofakya-org.github.io.git
-		git push -u origin source
-		git push -u origin master
+Switch to “source” branch:
+**git checkout source**
+
+Type ls to see the files.  Notice that there are ERB files—because this is the “source” branch.
+
+Switch back and forth between “master” and “source” branch by typing:
+**git checkout master**
+or
+**git checkout source**
+
+Check for ERB files indicating that you are working in the “source” branch.   Always make sure you are working in the “source” branch.  Check for this if any of the rake scripts below should fail—if not on the “source” branch then switch to the “source” branch.
+
+There are two branches: “source” and “master”.  Files in “master” branch are created from files in “source” branch.  You should only be editing files in the “source” branch (do NOT edit files in the “master” branch).
+
+Install Ruby (varies for Linux distribution):
+**sudo apt-get install ruby-full build-essential rubygems**
+
+Type **ruby -v** to confirm ruby installation
+
+The above should also install rake; 
+type **rake -help** to confirm.
+
+RubyGems should also be installed; 
+type **gem —help** to confirm
+ 
+Install SASS:
+**sudo gem install sass**
+
+Install Stasis:
+**sudo gem install stasis**
+
+Rake commands below should be performed in **bofakya-org.github.io** directory.
+
+The “compile” script compiles the template files—this is effectively a syntax check.
+**rake compile**
+
+The “checkin” script pushes the source files to the Github repository.
+**rake checkin**
+
+The “generate” script creates final HTML files on your computer (locally).
+**rake generate**
+
+The “publish” script pushes the final HTML files to the Github repository (the “publish” script runs “generate” first)
+**rake publish**
+
+The “live” script makes the HTML files “live” (visible) on the real website.
+**rake live**
+
+To summarize, typical order of operations is...
+
+1. Make changes
+2. **rake compile** (for syntax check)
+3. Repeat until all changes made
+
+When satisfied with changes then save changes:
+4. **rake checkin**
+
+When finished making changes and changes are checked in:
+5. **rake generate**
+
+After **rake generate** is run, you can use a browser to open the local **index.html** file in the **public** directory under the **bofakya-org.github.io** directory—this will show you the latest webpages that you created (which are still on your local machine).
+
+Do not accidentally switch to the public directory and starting working with the files there.  Always work with the files in the **bofakya-org.github.io** directory (always when set to the “source” branch where the ERB files are present). 
+
+If you are happy with they changes then run **rake publish** to save the final HTML files (the ones you looked at in the public directory). Then run **rake live** to activate the latest changes.

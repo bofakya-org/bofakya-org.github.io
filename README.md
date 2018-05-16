@@ -89,9 +89,11 @@ To summarize, typical order of operations is...
 3. Repeat until all changes made
 
 When satisfied with changes then save changes:
+
 4. **rake checkin**
 
 When finished making changes and changes are checked in:
+
 5. **rake generate**
 
 After **rake generate** is run, you can use a browser to open the local **index.html** file in the **public** directory under the **bofakya-org.github.io** directory—this will show you the latest webpages that you created (which are still on your local machine).
